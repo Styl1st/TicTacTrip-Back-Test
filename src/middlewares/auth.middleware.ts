@@ -15,7 +15,6 @@ export function authMiddleware(req: Request, res: Response, next: NextFunction) 
     return res.status(401).json({ error: "Invalid token" });
   }
 
-  // on attache les données du token à la requête
   (req as any).tokenData = tokenData;
   (req as any).token = token;
 
