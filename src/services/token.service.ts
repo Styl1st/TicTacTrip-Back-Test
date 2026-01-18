@@ -3,7 +3,7 @@ import crypto from "crypto";
 type TokenData = {
   email: string;
   wordsUsedToday: number;
-  lastResetDate: string; // YYYY-MM-DD
+  lastResetDate: string; // format "YYYY-MM-DD"
 };
 
 const tokenStore = new Map<string, TokenData>();

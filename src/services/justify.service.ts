@@ -9,7 +9,7 @@ export function justifyText(text: string, lineLength: number = 80): string {
 
   for (const word of words) {
     const wordLength = word.length;
-    const spaceNeeded = currentLine.length > 0 ? 1 : 0; // space before word
+    const spaceNeeded = currentLine.length > 0 ? 1 : 0; 
 
     if (currentLength + spaceNeeded + wordLength <= lineLength) {
       currentLine.push(word);
