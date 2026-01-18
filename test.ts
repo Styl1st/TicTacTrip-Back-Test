@@ -1,4 +1,4 @@
-import { justifyText } from "./src/services/justify.service";
+import { justifyText } from "./src/services/justify.service"; 
 
 const text = "Voici un texte très long que je souhaite justifier sur 80 caractères par ligne afin de voir si le système fonctionne correctement.";
 
