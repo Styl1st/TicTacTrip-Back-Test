@@ -1,7 +1,5 @@
 # TicTacTrip Back-Test - Text Justification API
 
-Une API REST performante et sécurisée pour justifier du texte, construite avec Node.js et TypeScript.
-
 ## Objectif : 
 
 Implémenter et déployer une API REST capable de justifier un texte en paramètre avec authentification par token et un système de rate limiting par utilisateur.
